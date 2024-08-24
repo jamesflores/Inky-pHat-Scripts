@@ -46,7 +46,7 @@ To schedule a script to run periodically, you can use cron:
 
 2. Add a line to schedule your script. For example, to run a script every hour:
    ```
-   0 * * * * /bin/bash -c 'source /home/pi/Inky-pHat-Scripts/venv/bin/activate && /home/pi/Inky-pHat-Scripts/script_name.py'
+   0 * * * * /bin/bash -c 'source /home/pi/Inky-pHat-Scripts/venv/bin/activate && python3 /home/pi/Inky-pHat-Scripts/script_name.py'
    ```
 
    Adjust the timing and path as needed.
